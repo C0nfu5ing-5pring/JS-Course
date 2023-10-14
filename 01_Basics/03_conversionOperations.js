@@ -19,5 +19,5 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let someNumber = 33;
 let someNumberInString = String(someNumber);
-console.log(typeof(someNumberInString));
-console.log(someNumberInString);
+// console.log(typeof(someNumberInString));
+// console.log(someNumberInString);
