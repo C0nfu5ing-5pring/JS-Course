@@ -23,3 +23,7 @@ console.log(id === anotherId); // false
 // BigInt => bigint
 // Array and Object => object
 // Function => object function
+
+/*************Memory***************/
+
+// Stack, Heap
