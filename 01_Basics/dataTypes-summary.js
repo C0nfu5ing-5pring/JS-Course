@@ -26,4 +26,4 @@ console.log(id === anotherId); // false
 
 /*************Memory***************/
 
-// Stack, Heap
+// link to understand https://excalidraw.com/#json=sImWOJbBiycA0PhP-ncZf,1W84po3cT930KWg6J0iDmw;
