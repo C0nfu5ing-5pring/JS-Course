@@ -31,4 +31,8 @@ console.log(Math.random()*10 ); // Multiplies that random number with 10. for ex
 console.log(Math.random()*10 + 1); // Multiplies that random number with 10 and makes sure that no number starts from 0, here, 1 will be the smallest number. for example- 10.32576188973825
 console.log(Math.floor((Math.random())*10 + 1)); // Multiplies that random number with 10 and makes sure that no number starts from 0, here, 1 will be the smallest number. for example- 10.32576188973825
 
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random()* (max-min+1)+min));
  
