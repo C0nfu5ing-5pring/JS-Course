@@ -39,4 +39,4 @@ let score2 = 200;
 let score3 = 300;
 
 console.log(Array.of(score1, score2, score3)); // [100, 200, 300]
-// What .of() does is, if takes a set of elements and returns a new array.
+// What .of() does is, it takes a set of elements and returns a new array.
