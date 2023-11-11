@@ -27,7 +27,7 @@ let cricket_players = ["Virat Kohli", "Dhoni", "Rohit Sharma"];
 // let usable_another_array = another_array.flat(Infinity);
 // console.log(usable_another_array);
 
-// You can whether it is an array or not
+// You can also check whether it is an array or not
 // console.log(Array.isArray("Shish")); // false
 // To convert something into an array we can do this...
 // console.log(Array.from("Shish")); // [ 'S', 'h', 'i', 's', 'h' ]
