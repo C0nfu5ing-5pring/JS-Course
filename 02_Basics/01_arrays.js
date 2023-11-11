@@ -35,14 +35,14 @@ const myArr2 = new Array ("Batsurat Pichai", "Bill Gates", "Elon Musk")
 
 // example of splice()
 
-const newArr1 = [1,2,3,4,5,6,7,8]; 
+// const newArr1 = [1,2,3,4,5,6,7,8]; 
 
-console.log(newArr1.splice(1,6));// Gives end to end value and removes that element from the original array.
-console.log(newArr1);
+// console.log(newArr1.splice(1,6));// Gives end to end value and removes that element from the original array.
+// console.log(newArr1);
 
 
-// example of slice()
+// // example of slice()
 
-const newArr2 = [1,2,3,4,5,6,7,8];
-console.log(newArr2.slice(1,4)); // Goves values starting from the first value and the element before the last value. Does not remove that element from original array.
-console.log(newArr2);
+// const newArr2 = [1,2,3,4,5,6,7,8];
+// console.log(newArr2.slice(1,4)); // Goves values starting from the first value and the element before the last value. Does not remove that element from original array.
+// console.log(newArr2);
