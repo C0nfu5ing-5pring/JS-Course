@@ -15,7 +15,7 @@ let cricket_players = ["Virat Kohli", "Dhoni", "Rohit Sharma"];
 // console.log(all_players);
 
 
-// There is also another method that is easy ans simple to understand and it is .spread(). Remember one thing, when we drop a cup, what does it do? It falls down and spreads. 
+// There is also another method that is easy and simple to understand and it is .spread(). Remember one thing, when we drop a cup, what does it do? It falls down and spreads. 
 // Here is an example.
 // const all_new_players = [...football_players, ...cricket_players];
 // console.log(all_new_players);
@@ -23,8 +23,8 @@ let cricket_players = ["Virat Kohli", "Dhoni", "Rohit Sharma"];
 
 
 // let another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]];
-// To handle these type of situations we can use another method that returns a new array with all sub-array elements concatenated into it recursively up to the specified depth. It takes an input which is used to determine the depth to be flattened. Suppose you wrote .flat(2) it will only flatten values upto 2 depth.
-// let usable_another_array = another_array.flat();
+// To handle these type of situations we can use another method that returns a new array with all sub-array elements concatenated into it recursively up to the specified depth. It takes an input which is used to determine the depth to be flattened. Suppose you wrote .flat(2) it will only flatten values upto 2 depths.
+// let usable_another_array = another_array.flat(Infinity);
 // console.log(usable_another_array);
 
 // You can whether it is an array or not
