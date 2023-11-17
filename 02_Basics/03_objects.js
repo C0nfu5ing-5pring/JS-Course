@@ -11,7 +11,7 @@ let JsUser = {
     email: "shish@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
-};
+}; // This is a non-singleton object.
 
 // How to access values in an object.
 // There are two ways, 
@@ -41,10 +41,10 @@ JsUser["email"] = "Shish@microsoft.com";
 
 // Now let's add a function to an object
 
-JsUser.greeting = function(){
+JsUser.greeting = function () {
     console.log("Hello JS user.");
 }
-JsUser.greetingTwo = function(){
+JsUser.greetingTwo = function () {
     console.log(`Hello, ${this.name}!`);
 }
 
