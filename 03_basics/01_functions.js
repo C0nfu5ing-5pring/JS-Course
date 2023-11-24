@@ -88,3 +88,49 @@ function functionName() {
 // };
 
 // console.log(userLoggedinMessage()); // You just logged in.
+
+function calculateCartPrice(num1) {
+    return num1;
+}
+
+// console.log(calculateCartPrice(2)); // 2
+
+// But when more values are added in the cart...
+
+function calculateCartPrice2(num1) {
+    return num1;
+}
+
+// console.log(calculateCartPrice2(200, 4, 6, 6, 7, 7, 8)); // 200
+
+// We do not get all values. To get them we can use rest operator. Rest operator and Spread operator arre similar but we name them on the basis of their function.
+// For example:
+
+function calculateCartPrice3(...num1) {
+    return num1;
+}
+
+// console.log(calculateCartPrice3(200, 4000, 80, 90));
+
+const user = {
+    name: "Shish",
+    price: 199,
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject["name"]} and price is ${anyObject["price"]}.`)
+}
+
+// handleObject(user);
+// handleObject({
+//     name: "Shish",
+//     price: 399,
+// });
+
+const myNewArray = [200, 400, 600, 100];
+
+function returnSecondValue(getArray) {
+    return getArray[1];
+}
+
+console.log(returnSecondValue(myNewArray));
